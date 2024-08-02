@@ -1,0 +1,21 @@
+[project]
+name = "five_to_eight"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "tbongkim03", email = "tbongkim03@gmial.com"},
+]
+dependencies = [
+    "pytest>=8.3.2",
+    "pytest-cov>=5.0.0",
+    "requests>=2.32.3",
+    "pandas>=2.2.2",
+    "pyarrow>=17.0.0",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
